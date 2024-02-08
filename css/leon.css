@@ -32,20 +32,20 @@ body {
 
    
 
- /* للشاشات الصغيرة */
+ /* S */
  @media (min-width: 768px ) {
     .container {
       width: 750px;
     }
  }  
- /* للشاشات الميديم */
+ /*M*/
 
 @media (min-width: 992px ) {
     .containers {
         width: 970px;
     }
 }
- /* للشاشات الكبيرة */
+ /* L */
 
 @media (min-width: 1200px ) {
     .containers {
@@ -53,7 +53,7 @@ body {
     }
 }
 /* End Global Rules */
-/*   العناصر اللي بستخدمها كثير - Start components */ 
+/*   Start components */ 
 .special-heading {
     color: #ebeced;
     font-size: 100px;
@@ -109,28 +109,28 @@ body {
 }
 
 
-.header .links .icon { /* الايكون الاساسية السبان اللي شايله 3 عناصر جواها */
+.header .links .icon { 
     width: 30px;
     display: flex;
-    flex-wrap: wrap; /* عشان العناصر لما تملا الشاشة تنزل تحت */
-    justify-content: flex-end; /* اغير جهته لليمين */
+    flex-wrap: wrap; 
+    justify-content: flex-end; 
 }
-.header .links .icon span { /* السبان اللي جوا الايكون */
+.header .links .icon span { 
     background-color: #333;
-    margin-bottom: 5px; /* عشان ماتلزق ببعض تكون تحت بعض */
+    margin-bottom: 5px; 
     height: 2px;
 
 }
-.header .links .icon span:first-child { /* السبان الاولى */
+.header .links .icon span:first-child { 
      width: 100%;
 
 }
 .header .links .icon span:nth-child(2) {
-    /*السبانالثانية*/width: 60%;
+width: 60%;
     transition: var(--main-duration);
    
 }
-.header .links .icon span:last-child { /* السبان الاخيرة */
+.header .links .icon span:last-child { 
     width: 100%;
 }
 .header .links  ul{
